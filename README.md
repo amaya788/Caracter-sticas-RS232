@@ -1,2 +1,4 @@
-# Caracter-sticas-RS232
+## Caracter-sticas-RS232
 Protocolo RS232
+## <h2><p align="center"> <b> Código ASCII, su historial y su funcionamiento  </b> </h2>
+El código ASCII, cuyo nombre completo es American Standard Code for Information Interchange, fue creado en 1963 para unificar la forma en que los sistemas de cómputo representaban letras, números y símbolos. Su funcionamiento consiste en asignar un número binario a cada carácter, lo que permite que distintos dispositivos puedan comunicarse sin problemas de interpretación. Inicialmente se usaron 7 bits para un total de 128 caracteres, pero más adelante se amplió a 8 bits, alcanzando 256 combinaciones, lo que permitió añadir símbolos adicionales y caracteres especiales. Este estándar fue fundamental para que las computadoras pudieran manejar y compartir texto de manera consistente.
