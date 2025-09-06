@@ -2,6 +2,8 @@
 Protocolo RS232
 ## <h2><p align="center"> <b> Código ASCII, su historial y su funcionamiento  </b> </h2>
 El código ASCII, cuyo nombre completo es American Standard Code for Information Interchange, fue creado en 1963 para unificar la forma en que los sistemas de cómputo representaban letras, números y símbolos. Su funcionamiento consiste en asignar un número binario a cada carácter, lo que permite que distintos dispositivos puedan comunicarse sin problemas de interpretación. Inicialmente se usaron 7 bits para un total de 128 caracteres, pero más adelante se amplió a 8 bits, alcanzando 256 combinaciones, lo que permitió añadir símbolos adicionales y caracteres especiales. Este estándar fue fundamental para que las computadoras pudieran manejar y compartir texto de manera consistente.
+<h2><p align="center"> <b> <img width="319" height="319" alt="image" src="https://github.com/user-attachments/assets/734f5f28-0c4a-475a-9043-9ad5c95d6990" /> </b> </h2>
+
 ## <h2><p align="center"> <b> Descricion de los pines del conector DB9 y DB25 del protocolo RS232.  </b> </h2>
 Para verificar si un puerto serie funciona de manera correcta, se emplea con frecuencia una conexión de bucle invertido. Esta técnica consiste en unir las salidas del puerto con sus propias entradas, de modo que los datos enviados regresen al mismo dispositivo y puedan ser recibidos nuevamente. En el caso del protocolo RS-232, los conectores más utilizados son los DB9 y DB25, cada uno con su distribución de pines específica. No obstante, dependiendo del uso o la aplicación, no siempre es necesario emplear todas las conexiones.
 <h2><p align="center"> <b> <img width="323" height="519" alt="image" src="https://github.com/user-attachments/assets/307f08e1-00d4-4367-88ed-d14e9a87aa59" /> </b> </h2
