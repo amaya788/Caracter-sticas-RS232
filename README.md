@@ -1,46 +1,20 @@
-# 🔌 Protocolo RS232
+## Caracter-sticas-RS232
+Protocolo RS232
+## <h2><p align="center"> <b> Código ASCII, su historial y su funcionamiento  </b> </h2>
+El código ASCII, cuyo nombre completo es American Standard Code for Information Interchange, fue creado en 1963 para unificar la forma en que los sistemas de cómputo representaban letras, números y símbolos. Su funcionamiento consiste en asignar un número binario a cada carácter, lo que permite que distintos dispositivos puedan comunicarse sin problemas de interpretación. Inicialmente se usaron 7 bits para un total de 128 caracteres, pero más adelante se amplió a 8 bits, alcanzando 256 combinaciones, lo que permitió añadir símbolos adicionales y caracteres especiales. Este estándar fue fundamental para que las computadoras pudieran manejar y compartir texto de manera consistente.
+<h2><p align="center"> <b> <img width="319" height="319" alt="image" src="https://github.com/user-attachments/assets/734f5f28-0c4a-475a-9043-9ad5c95d6990" /> </b> </h2>
 
-El protocolo **RS-232** es uno de los más utilizados en comunicaciones seriales, especialmente en entornos industriales y de computación. Su función principal es definir cómo se transmiten y reciben datos entre dispositivos a través de comunicación serial asíncrona.
+## <h2><p align="center"> <b> Descricion de los pines del conector DB9 y DB25 del protocolo RS232.  </b> </h2>
+Para verificar si un puerto serie funciona de manera correcta, se emplea con frecuencia una conexión de bucle invertido. Esta técnica consiste en unir las salidas del puerto con sus propias entradas, de modo que los datos enviados regresen al mismo dispositivo y puedan ser recibidos nuevamente. En el caso del protocolo RS-232, los conectores más utilizados son los DB9 y DB25, cada uno con su distribución de pines específica. No obstante, dependiendo del uso o la aplicación, no siempre es necesario emplear todas las conexiones.
+<h2><p align="center"> <b> <img width="323" height="519" alt="image" src="https://github.com/user-attachments/assets/307f08e1-00d4-4367-88ed-d14e9a87aa59" /> </b> </h2
+                                                                                                                                        
+## <h2><p align="center"> <b> Profundizacion en el formato del protocolo RS232. </b> </h2>
+El estándar RS-232 define la forma en que se transmiten datos entre dos equipos a través de comunicación en serie. Su transmisión es asíncrona, es decir, no requiere de un reloj compartido, y organiza la información en tramas que incluyen un bit de inicio, un conjunto de bits de datos (generalmente 8), un bit de paridad opcional para la detección de errores y uno o más bits de parada que marcan el final del carácter. Una de las configuraciones más comunes es 8N1, que corresponde a 8 bits de datos, sin paridad y un bit de parada. En cuanto a la señal eléctrica, RS-232 utiliza niveles de voltaje distintos a los de la lógica digital convencional: un “1” se representa con voltajes negativos, mientras que un “0” corresponde a voltajes positivos. La velocidad de transmisión depende de la configuración, siendo habituales valores como 9600 o 115200 bits por segundo. Además, puede usar control de flujo tanto por hardware (con líneas como RTS y CTS) como por software (mediante caracteres especiales), lo que permite evitar pérdida de datos si uno de los equipos procesa más lento que el otro.
+<h2><p align="center"> <b> <img width="397" height="392" alt="image" src="https://github.com/user-attachments/assets/0ae76add-fa12-41b3-8b72-0eab3ee8e3a9" /> </b> </h2>
 
----
-
-## 🔠 Código ASCII: historia y funcionamiento
-El **American Standard Code for Information Interchange (ASCII)** fue creado en 1963 para unificar la representación de letras, números y símbolos en los sistemas de cómputo.  
-
-- Inicialmente usó **7 bits = 128 caracteres**.  
-- Luego se amplió a **8 bits = 256 caracteres**, añadiendo caracteres especiales.  
-
-Esto permitió la comunicación consistente entre equipos de diferentes fabricantes.  
-
-<p align="center">
-  <img width="319" height="319" alt="image" src="https://github.com/user-attachments/assets/734f5f28-0c4a-475a-9043-9ad5c95d6990" />
-</p>
-
----
-
-## 🖇️ Descripción de pines del conector DB9 y DB25
-Los puertos serie RS-232 suelen emplear conectores **DB9** y **DB25**.  
-
-| Señal | Función                          | DB9 | DB25 |
-|-------|----------------------------------|-----|------|
-| DCD   | Detecta portadora                | 1   | 8    |
-| RXD   | Datos recibidos                  | 2   | 3    |
-| TXD   | Datos transmitidos               | 3   | 2    |
-| DTR   | Terminal listo                   | 4   | 20   |
-| GND   | Tierra                           | 5   | 7    |
-| DSR   | Equipo listo                     | 6   | 6    |
-| RTS   | Solicitud para enviar            | 7   | 4    |
-| CTS   | Listo para enviar                | 8   | 5    |
-| RI    | Indicador de llamada entrante    | 9   | 22   |
-
-<p align="center">
-  <img width="323" height="519" alt="image" src="https://github.com/user-attachments/assets/307f08e1-00d4-4367-88ed-d14e9a87aa59" />
-</p>
-
----
-
-## 📡 Formato de trama RS-232
-El estándar RS-232 define la transmisión de datos en tramas **asincrónicas**.  
-Una configuración común es **8N1**:  
+## <h2><p align="center"> <b> Referencias </b> </h2>
+1. E. de, “Código ASCII: qué es y cómo se usa en informática,” GoDaddy Resources - Spain, Nov. 26, 2024. Disponible en: https://www.godaddy.com/resources/es/crearweb/que-es-y-para-que-sirve-el-codigo-ascii. Accedido el 28 de agosto de 2025.
+2. “RS-232 Loopback Connections - DB9 & DB25,” Advantech.com, Oct. 18, 2018. Disponible en: https://www.advantech.com/es-mx/resources/white-papers/50780c7c-b002-48Accedido el 28 de agosto de 2025.
+3. Serial Port Monitor, “Serial Port Monitor,” Serial Port Monitor, Dec. 23, 2024. Disponible en: https://www.serial-port-monitor.org/es/articles/serial-communication/rs232-interface/. Accedido el 28 de agosto de 2025.
 
 
